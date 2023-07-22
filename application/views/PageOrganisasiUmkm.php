@@ -11,7 +11,7 @@
    
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo base_url();?>Assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
 
 </head>
 
@@ -68,8 +68,8 @@
                         <!-- Single Catagory Post -->
                         <div class="single-catagory-post d-flex flex-wrap">
                             <!-- Thumbnail -->
-                            <div class="post-thumbnail bg-img" style="background-image: url(Assets/foto/<?php echo $k->foto_umkm?>);">
-                                <a href="<?php echo base_url();?>C_Umkm/showSingleUmkm?id_umkm=<?php echo $k->id_umkm?>"><img src="<?php echo base_url();?>Assets/foto/<?php echo $k->foto_umkm?>" width="100" height="100" >
+                            <div class="post-thumbnail bg-img" style="background-image: url(assets/foto/<?php echo $k->foto_umkm?>);">
+                                <a href="<?php echo base_url();?>C_Umkm/showSingleUmkm?id_umkm=<?php echo $k->id_umkm?>"><img src="<?php echo base_url();?>assets/foto/<?php echo $k->foto_umkm?>" width="100" height="100" >
                                 </a>
                             </div>
 
@@ -95,9 +95,9 @@
                         <!-- Single Catagory Post -->
                         <div class="single-catagory-post d-flex flex-wrap">
                             <!-- Thumbnail -->
-                            <div class="post-thumbnail bg-img" style="background-image: url(Assets/foto/<?php echo $k->foto_org?>);">
+                            <div class="post-thumbnail bg-img" style="background-image: url(assets/foto/<?php echo $k->foto_org?>);">
                                  <a href="<?php echo base_url();?>C_Organisasi/showSingleOrganisasi?id_org=<?php echo $k->id_org?>">
-                                <img src="<?php echo base_url();?>Assets/foto/<?php echo $k->foto_org?>" width="100" height="100" >
+                                <img src="<?php echo base_url();?>assets/foto/<?php echo $k->foto_org?>" width="100" height="100" >
                                 </a>
                             </div>
 
@@ -163,15 +163,15 @@
     <!-- ##### Archive Post Area End ##### -->
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="<?php echo base_url();?>Assets/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<?php echo base_url();?>assets/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="<?php echo base_url();?>Assets/js/popper.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="<?php echo base_url();?>Assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="<?php echo base_url();?>Assets/js/plugins/plugins.js"></script>
+    <script src="<?php echo base_url();?>assets/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="<?php echo base_url();?>Assets/js/active.js"></script>
+    <script src="<?php echo base_url();?>assets/js/active.js"></script>
 </body>
 
 </html>

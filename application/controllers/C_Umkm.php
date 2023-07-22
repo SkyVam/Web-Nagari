@@ -42,7 +42,7 @@ class C_Umkm extends CI_Controller {
         $nama_umkm = $this->input->post('nama_umkm', true);
         $deskripsi_umkm = $this->input->post('deskripsi_umkm', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $nama_umkm."_".time();
@@ -74,7 +74,7 @@ class C_Umkm extends CI_Controller {
         $nama_umkm = $this->input->post('nama_umkm', true);
         $deskripsi_umkm = $this->input->post('deskripsi_umkm', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $nama_umkm."_".time();

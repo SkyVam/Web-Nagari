@@ -63,7 +63,7 @@ class C_Berita extends CI_Controller {
       $nama_penulis = $this->input->post('nama_penulis', true);
       $status = $this->input->post('status', true);
       $this->load->library('upload');
-      $config['upload_path'] = './Assets/foto/'; 
+      $config['upload_path'] = './assets/foto/'; 
       $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
       $config['max_size'] = '1024'; 
       $config['file_name'] = $judul_berita."_".time();
@@ -87,7 +87,7 @@ class C_Berita extends CI_Controller {
         $nama_penulis = $this->input->post('nama_penulis', true);
         $status = $this->input->post('status', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $judul_berita."_".time();
@@ -129,7 +129,7 @@ class C_Berita extends CI_Controller {
         $isi = $this->input->post('isi_berita', true);
         $status = $this->input->post('status', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $judul_berita."_".time();

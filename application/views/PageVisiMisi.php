@@ -15,7 +15,7 @@
     <link rel="icon" href="img/core-img/favicon.ico">
 
     <!-- Stylesheet -->
- <link rel="stylesheet" href="<?php echo base_url();?>Assets/css/style.css">
+ <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
 
 </head>
 
@@ -122,15 +122,15 @@
         
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="<?php echo base_url();?>Assets/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="<?php echo base_url();?>Assets/js/bootstrap/popper.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="<?php echo base_url();?>Assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="<?php echo base_url();?>Assets/js/plugins/plugins.js"></script>
+    <script src="<?php echo base_url();?>assets/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="<?php echo base_url();?>Assets/js/active.js"></script>
+    <script src="<?php echo base_url();?>assets/js/active.js"></script>
 </body>
 
 </html>

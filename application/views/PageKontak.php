@@ -12,10 +12,10 @@
     <title>Mag - Video &amp; Magazine HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo base_url();?>Assets/img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo base_url();?>assets/img/core-img/favicon.ico">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo base_url();?>Assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
 
 </head>
 
@@ -207,15 +207,15 @@
 <!-- ##### Archive Post Area End ##### -->
 <!-- ##### All Javascript Script ##### -->
 <!-- jQuery-2.2.4 js -->
-<script src="<?php echo base_url();?>Assets/jquery/jquery-2.2.4.min.js"></script>
+<script src="<?php echo base_url();?>assets/jquery/jquery-2.2.4.min.js"></script>
 <!-- Popper js -->
-<script src="<?php echo base_url();?>Assets/js/popper.min.js"></script>
+<script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
 <!-- Bootstrap js -->
-<script src="<?php echo base_url();?>Assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>assets/js/bootstrap/bootstrap.min.js"></script>
 <!-- All Plugins js -->
-<script src="<?php echo base_url();?>Assets/js/plugins/plugins.js"></script>
+<script src="<?php echo base_url();?>assets/js/plugins/plugins.js"></script>
 <!-- Active js -->
-<script src="<?php echo base_url();?>Assets/js/active.js"></script>
+<script src="<?php echo base_url();?>assets/js/active.js"></script>
 </body>
 
 </html>

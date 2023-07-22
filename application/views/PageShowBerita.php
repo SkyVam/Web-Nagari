@@ -12,7 +12,7 @@
 
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo base_url();?>Assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
 
 </head>
 
@@ -73,7 +73,7 @@
                             </div>
                                  
                             <div class="blog-thumb mb-30">
-                            <img src="<?php echo base_url();?>Assets/foto/<?php echo $b->foto_berita?>" alt="">
+                            <img src="<?php echo base_url();?>assets/foto/<?php echo $b->foto_berita?>" alt="">
                         </div>
                         <!-- Single Catagory Post -->
 
@@ -173,15 +173,15 @@ $op['isi'] . "</i>" . "<br />" . "<br />" . $op['email'] . "<br />";
     <!-- ##### Archive Post Area End ##### -->
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="<?php echo base_url();?>Assets/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<?php echo base_url();?>assets/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="<?php echo base_url();?>Assets/js/popper.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="<?php echo base_url();?>Assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="<?php echo base_url();?>Assets/js/plugins/plugins.js"></script>
+    <script src="<?php echo base_url();?>assets/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="<?php echo base_url();?>Assets/js/active.js"></script>
+    <script src="<?php echo base_url();?>assets/js/active.js"></script>
 </body>
 
 </html>

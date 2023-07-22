@@ -38,7 +38,7 @@ class C_Galeri extends CI_Controller {
         $caption_foto = $this->input->post('caption_foto', true);
         
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $judul_foto."_".time();

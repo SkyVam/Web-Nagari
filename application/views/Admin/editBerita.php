@@ -12,13 +12,13 @@
   <title>Dashboard Admin - Desa Mojorejo</title>
 
   <!-- Custom fonts for this template-->
-  <link href="<?php echo base_url();?>Assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url();?>assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Page level plugin CSS-->
-  <link href="<?php echo base_url();?>Assets/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>assets/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="<?php echo base_url();?>Assets/css/sb-admin.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>assets/css/sb-admin.css" rel="stylesheet">
 
 </head>
 
@@ -148,7 +148,7 @@
             <div class="form-group">
               <label>Foto</label>
               <br/>
-              <?php echo '<img src="../Assets/foto/'.$b->foto_berita.'" alt="HTML5 Icon" style="width:40%;height:40%">'; ?>
+              <?php echo '<img src="../assets/foto/'.$b->foto_berita.'" alt="HTML5 Icon" style="width:40%;height:40%">'; ?>
               <?php echo $b->foto_berita ?><br/>
               <input type="file" id="foto_berita" name="foto_berita" value="<?php echo $b->foto_berita ?>">
 
@@ -182,23 +182,23 @@
 
 
   <!-- Bootstrap core JavaScript-->
-  <script src="<?php echo base_url();?>Assets/jquery/jquery.min.js"></script>
-  <script src="<?php echo base_url();?>Assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url();?>assets/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="<?php echo base_url();?>Assets/jquery-easing/jquery.easing.min.js"></script>
+  <script src="<?php echo base_url();?>assets/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Page level plugin JavaScript-->
-  <script src="<?php echo base_url();?>Assets/chart.js/Chart.min.js"></script>
-  <script src="<?php echo base_url();?>Assets/datatables/jquery.dataTables.js"></script>
-  <script src="<?php echo base_url();?>Assets/datatables/dataTables.bootstrap4.js"></script>
+  <script src="<?php echo base_url();?>assets/chart.js/Chart.min.js"></script>
+  <script src="<?php echo base_url();?>assets/datatables/jquery.dataTables.js"></script>
+  <script src="<?php echo base_url();?>assets/datatables/dataTables.bootstrap4.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="<?php echo base_url();?>Assets/js/sb-admin.min.js"></script>
+  <script src="<?php echo base_url();?>assets/js/sb-admin.min.js"></script>
 
   <!-- Demo scripts for this page-->
-  <script src="<?php echo base_url();?>Assets/js/demo/datatables-demo.js"></script>
-  <script src="<?php echo base_url();?>Assets/js/demo/chart-area-demo.js"></script>
+  <script src="<?php echo base_url();?>assets/js/demo/datatables-demo.js"></script>
+  <script src="<?php echo base_url();?>assets/js/demo/chart-area-demo.js"></script>
 
 </body>
 

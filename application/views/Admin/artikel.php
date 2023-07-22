@@ -12,13 +12,13 @@
   <title>Dashboard Admin - Desa Mojorejo</title>
 
   <!-- Custom fonts for this template-->
-  <link href="<?php echo base_url();?>Assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url();?>assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Page level plugin CSS-->
-  <link href="<?php echo base_url();?>Assets/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>assets/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="<?php echo base_url();?>Assets/css/sb-admin.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>assets/css/sb-admin.css" rel="stylesheet">
 
 </head>
 
@@ -147,7 +147,7 @@
               <td><?php echo $a->id_artikel ?></td>
               <td><a href="<?php echo base_url();?>C_Artikel/showDetailArtikel?id_artikel=<?php echo $a->id_artikel?>" class="post-title"><?php echo $a->judul_artikel ?></a></td>
               <td><?php echo $a->tanggal_artikel?></td>
-              <td><img src="<?php echo base_url();?>Assets/foto/<?php echo $a->foto_artikel?>" width="100" height="100"></td>
+              <td><img src="<?php echo base_url();?>assets/foto/<?php echo $a->foto_artikel?>" width="100" height="100"></td>
               <td>
                 <a href="<?php echo base_url();?>C_Artikel/hapusArtikel?id_artikel=<?php echo $a->id_artikel?>">Delete</a>
                 <a href="<?php echo base_url();?>C_Artikel/showHalamanEditArtikel?id_artikel=<?php echo $a->id_artikel?>">Edit</a>
@@ -168,23 +168,23 @@
 
 
     <!-- Bootstrap core JavaScript-->
-    <script src="<?php echo base_url();?>Assets/jquery/jquery.min.js"></script>
-    <script src="<?php echo base_url();?>Assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url();?>assets/jquery/jquery.min.js"></script>
+    <script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="<?php echo base_url();?>Assets/jquery-easing/jquery.easing.min.js"></script>
+    <script src="<?php echo base_url();?>assets/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Page level plugin JavaScript-->
-    <script src="<?php echo base_url();?>Assets/chart.js/Chart.min.js"></script>
-    <script src="<?php echo base_url();?>Assets/datatables/jquery.dataTables.js"></script>
-    <script src="<?php echo base_url();?>Assets/datatables/dataTables.bootstrap4.js"></script>
+    <script src="<?php echo base_url();?>assets/chart.js/Chart.min.js"></script>
+    <script src="<?php echo base_url();?>assets/datatables/jquery.dataTables.js"></script>
+    <script src="<?php echo base_url();?>assets/datatables/dataTables.bootstrap4.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="<?php echo base_url();?>Assets/js/sb-admin.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/sb-admin.min.js"></script>
 
     <!-- Demo scripts for this page-->
-    <script src="<?php echo base_url();?>Assets/js/demo/datatables-demo.js"></script>
-    <script src="<?php echo base_url();?>Assets/js/demo/chart-area-demo.js"></script>
+    <script src="<?php echo base_url();?>assets/js/demo/datatables-demo.js"></script>
+    <script src="<?php echo base_url();?>assets/js/demo/chart-area-demo.js"></script>
 
   </body>
 

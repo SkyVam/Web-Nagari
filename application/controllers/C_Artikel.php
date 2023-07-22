@@ -71,7 +71,7 @@ class C_Artikel extends CI_Controller {
         $judul_artikel = $this->input->post('judul_artikel', true);
         $isi = $this->input->post('isi_artikel', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $judul_artikel."_".time();
@@ -95,7 +95,7 @@ class C_Artikel extends CI_Controller {
         $judul_artikel = $this->input->post('judul_artikel', true);
         $isi = $this->input->post('isi_artikel', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $judul_artikel."_".time();

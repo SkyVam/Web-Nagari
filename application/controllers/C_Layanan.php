@@ -59,7 +59,7 @@ class C_Layanan extends CI_Controller {
         $judul_layanan = $this->input->post('judul_layanan', true);
         $isi = $this->input->post('isi_layanan', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $judul_layanan."_".time();
@@ -83,7 +83,7 @@ class C_Layanan extends CI_Controller {
         $judul_layanan = $this->input->post('judul_layanan', true);
         $isi = $this->input->post('isi_layanan', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $judul_layanan."_".time();

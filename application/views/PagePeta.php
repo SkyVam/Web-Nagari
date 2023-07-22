@@ -12,7 +12,7 @@
     <title>Halaman Peta-Nagari Parik Panjang</title>
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?php echo base_url();?>Assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
 
 </head>
 
@@ -46,7 +46,7 @@
                         <div class="section-heading">
                             <h4>Peta Desa</h4>
                         </div>
-                        <img src="<?php echo base_url();?>Assets/img/peta.jpg" width="1300" height="1300">
+                        <img src="<?php echo base_url();?>assets/img/peta.jpg" width="1300" height="1300">
                         
                     </div>
                 </div>
@@ -97,15 +97,15 @@
         
         <!-- ##### All Javascript Script ##### -->
         <!-- jQuery-2.2.4 js -->
-        <script src="<?php echo base_url();?>Assets/js/jquery/jquery-2.2.4.min.js"></script>
+        <script src="<?php echo base_url();?>assets/js/jquery/jquery-2.2.4.min.js"></script>
         <!-- Popper js -->
-        <script src="<?php echo base_url();?>Assets/js/bootstrap/popper.min.js"></script>
+        <script src="<?php echo base_url();?>assets/js/bootstrap/popper.min.js"></script>
         <!-- Bootstrap js -->
-        <script src="<?php echo base_url();?>Assets/js/bootstrap/bootstrap.min.js"></script>
+        <script src="<?php echo base_url();?>assets/js/bootstrap/bootstrap.min.js"></script>
         <!-- All Plugins js -->
-        <script src="<?php echo base_url();?>Assets/js/plugins/plugins.js"></script>
+        <script src="<?php echo base_url();?>assets/js/plugins/plugins.js"></script>
         <!-- Active js -->
-        <script src="<?php echo base_url();?>Assets/js/active.js"></script>
+        <script src="<?php echo base_url();?>assets/js/active.js"></script>
     </body>
 
     </html>

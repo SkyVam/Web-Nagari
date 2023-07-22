@@ -31,7 +31,7 @@ class C_Apbd extends CI_Controller {
     {
         $tahun_apbd = $this->input->post('tahun_apbd', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $tahun_apbd."_".time();

@@ -10,17 +10,17 @@
   <title>Agency - Start Bootstrap Theme</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="<?php echo base_url();?>Assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="<?php echo base_url();?>Assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url();?>assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="<?php echo base_url();?>Assets/css/agency.min.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>assets/css/agency.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -57,17 +57,17 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="<?php echo base_url();?>Assets/jquery/jquery.min.js"></script>
-  <script src="<?php echo base_url();?>Assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url();?>assets/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="<?php echo base_url();?>Assets/jquery-easing/jquery.easing.min.js"></script>
+  <script src="<?php echo base_url();?>assets/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="<?php echo base_url();?>Assets/js/jqBootstrapValidation.js"></script>
-  <script src="<?php echo base_url();?>Assets/js/contact_me.js"></script>
+  <script src="<?php echo base_url();?>assets/js/jqBootstrapValidation.js"></script>
+  <script src="<?php echo base_url();?>assets/js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="<?php echo base_url();?>Assets/js/agency.min.js"></script>
+  <script src="<?php echo base_url();?>assets/js/agency.min.js"></script>
 </body>
 </html>

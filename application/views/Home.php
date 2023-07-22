@@ -8,18 +8,18 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- Bootstrap core CSS -->
-  <link href="Assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="Assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="Assets/css/agency.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="<?php echo base_url();?>Assets/scss/style.css">
+  <link href="assets/css/agency.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/scss/style.css">
 
 </head>
 
@@ -163,7 +163,7 @@
               </div>
             </div>
            
-            <img class="img-fluid" style="height: 200px; width: 400px;" src="<?php echo base_url();?>Assets/foto/<?php echo $b->foto_berita?>" alt="">
+            <img class="img-fluid" style="height: 200px; width: 400px;" src="<?php echo base_url();?>assets/foto/<?php echo $b->foto_berita?>" alt="">
        
           </a>
           <div class="portfolio-caption" style="margin-top: -10px;">
@@ -181,24 +181,24 @@
  
 
   <!-- Bootstrap core JavaScript -->
-  <script src="Assets/jquery/jquery.min.js"></script>
-  <script src="Assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="Assets/jquery-easing/jquery.easing.min.js"></script>
+  <script src="assets/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="Assets/js/jqBootstrapValidation.js"></script>
-  <script src="Assets/js/contact_me.js"></script>
+  <script src="assets/js/jqBootstrapValidation.js"></script>
+  <script src="assets/js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="Assets/js/agency.min.js"></script>
-  <script src="<?php echo base_url();?>Assets/js/jquery/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/agency.min.js"></script>
+  <script src="<?php echo base_url();?>assets/js/jquery/jquery-2.2.4.min.js"></script>
  
     <!-- All Plugins js -->
-    <script src="<?php echo base_url();?>Assets/js/plugins/plugins.js"></script>
+    <script src="<?php echo base_url();?>assets/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="<?php echo base_url();?>Assets/js/active.js"></script>
+    <script src="<?php echo base_url();?>assets/js/active.js"></script>
 
 </body>
 

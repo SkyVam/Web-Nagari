@@ -42,7 +42,7 @@ class C_Organisasi extends CI_Controller {
         $nama_org = $this->input->post('nama_org', true);
         $deskripsi_org = $this->input->post('deskripsi_org', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $nama_org."_".time();
@@ -68,7 +68,7 @@ class C_Organisasi extends CI_Controller {
         $nama_org = $this->input->post('nama_org', true);
         $deskripsi_org = $this->input->post('deskripsi_org', true);
         $this->load->library('upload');
-        $config['upload_path'] = './Assets/foto/'; 
+        $config['upload_path'] = './assets/foto/'; 
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; 
         $config['max_size'] = '1024'; 
         $config['file_name'] = $nama_org."_".time();
