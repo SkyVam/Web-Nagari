@@ -46,4 +46,15 @@ class C_Profil extends CI_Controller {
 		$this->load->view('PagePeta',$data);
 		$this->load->view('template/footer');
 	}
+	public function ShowSejarah()
+	{
+		$this->load->view('template/nav');
+		$data['profesi'] = $this->M_Profesi->getProfesi();
+		$data['agama'] = $this->M_Agama->getAgama();
+		$data['etnis'] = $this->M_Etnis->getEtnis();
+		$data['berita'] = $this->M_Berita->getBeritaTerbaru();
+		$data['artikel'] = $this->M_Artikel->getArtikelTerbaru();
+		$this->load->view('PageSejarah',$data);
+		$this->load->view('template/footer');
+	}
 }

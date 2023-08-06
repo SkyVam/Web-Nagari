@@ -46,12 +46,12 @@
                         <!-- Section Title -->
                         <div class="section-heading">
                             <h4>Tentang Desa</h4>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet tellus cras adipiscing enim eu turpis. Est placerat in egestas erat imperdiet. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eu non diam phasellus vestibulum lorem. Facilisi cras fermentum odio eu feugiat pretium. Vitae aliquet nec ullamcorper sit. Dictum varius duis at consectetur. Eget aliquet nibh praesent tristique. Tristique nulla aliquet enim tortor at.</p>
-<p >
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet tellus cras adipiscing enim eu turpis. Est placerat in egestas erat imperdiet. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eu non diam phasellus vestibulum lorem. Facilisi cras fermentum odio eu feugiat pretium. Vitae aliquet nec ullamcorper sit. Dictum varius duis at consectetur. Eget aliquet nibh praesent tristique. Tristique nulla aliquet enim tortor at.</p>
-                        
-                       
+                        </div>            
+                        <p style="text-align: justify-all;">Nagari Parik Panjang terletak di Kecamatan Matur Kabupaten Agam. Jorong ini berada sekitar ± 2,5 km dari Pasar Matur sebagai pasar utama di Nagari Parik Panjang, dan dari kota Bukittinggi berjarak sekitar ± 90 km. Batas wilayah Nagari Parik Panjang sebelah timur berbatasan dengan Nagari Panta Pauh, sebelah barat berbatasan dengan Nagari Matur Mudiak, sebelah utara berbatasan dengan Nagari Matua Mudiak, adapun sebelah selatan berbatasan dengan Nagari Matua Hilia. </p>
+                        <p style="text-align: justify-all;">Nagari Parik Panjang adalah sebuah desa yang terletak di Kecamatan Matur Kabupaten Agam. Nagari Parik Panjang daerahnya terdiri dari persawahan, perkebunan. Persawahan di Nagari Parik Panjang memiliki musim tanam dan musim panen yang berbeda, sementara perkebunan dipenuhi dengan perkebunan Tebu dan Cabe.</p>
+<p style="text-align: justify-all;">Nagari Parik Panjang adalah sebuah desa yang kaya akan air dan juga dialiri oleh sungai yang berasal dari mata air perbukitan di dekat Nagari Parik Panjang tersebut.
+Seperti sudah tradisi di Nagari Parik Panjang, bahwa pemuda/I nya apabila ingin melanjutkan menuntut ilmu ke jenjang yang lebih tinggi seperti melanjutkan sekolah menengah umum atau pun kuliah, mereka melanjutkan keluar daerah Parik Panjang seperti ke Padang, Bukittinggi dan kota-kota lainnya dikarenakan di Nagari Parik Panjang tidak ada  Sekolah Menengah Umum (SMU), di Nagari Parik Panjang hanya  berdiri Sekolah Dasar (SD) saja itupun di gabung dengan dua jorong yaitu Jorong Parik Panjang dan Jorong Mudiak Sawah. </p>
+<p style="text-align: justify-all;">Tetapi ada juga dari pemuda/I yang lain tidak ingin melanjutkan sekolah ke jenjang berikutnya hanya tamat SD atau SMP, karena ingin menolong orang tua yang bekerja sebagai petani, dan pada umumnya mereka lebih banyak merantau daripada tinggal di desa mereka. Oleh karena itu sulit untuk mencari pemuda/I di Nagari Parik Panjang tersebut.</p>
                         <!-- Team Member Area -->
                         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 

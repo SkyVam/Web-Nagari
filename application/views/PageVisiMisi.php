@@ -51,24 +51,20 @@
                                   <h5 style="text-align: center;">Visi</h5>
                             </div>
                 
-                        <p style="text-align: center;"><i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-"</i>
+                        <p style="text-align: center;"><i>"Terwujudnya Pelayanan Publik yang Transparan, Menuju Parik Panjang Yang Madani, Maju, Berbudaya dan Sejahtera"</i>
                        </p>
        <div class="section-heading">
                                   <h5 style="text-align: center;">Misi</h5>
                             </div>
                 
                            <p style="margin-left: 45px; margin-top: 20px">  <justify>
-                            1. Menjamin berlangsungnya kehidupan keagamaan yang didasari oleh toleransi antar umat beragama.
-                            <br>
-2. Mendayagunakan secara optimal dan terkendali sumber daya manusia yang ada di desa.
-<br>
-3. Merevatiliasi apatur pemerintah dan menjalankan roda pemerintahan desa yang didasari sikap maupun tindakan kreatif dan inovatif guna mengoptimalkan pelayanan kepada masyarakat
-<br>
-4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-<br>
-5. Menumbuhkembangkan kepekaan Apatur terhadap problem-problem yang aktual pada masyarakat.
+                           1. Meningkatkan Profesionalisme Perangkat Nagari. <br>
+2. Melanjutkan Program-program Pemerintah Nagari yang Sebelumnya dan Mengaktifkan Aset-aset Nagari yang Sudah Ada. <br>
+3. Pemberdayaan Ekonomi Masyarakat Nagari. <br>
+4. Pemberdayaab SDM (Sumber Daya Manusia) dan Semua Potensi yang Ada di Masyarakat. <br>
+5. Mewujudkan Sarana dan Prasarana Nagari yang Memadai dan Tepat Guna. <br>
+6. Meningkatkan Kehidupan Nagari Secara Dinamis dalam Segi Keagamaan dan Kebudayaan. <br>
+7. Mewujudkan Kondisi Nagari yang Aman, Tertib dan Rukun.
 
                      </justify>  </p>
                        

@@ -45,6 +45,7 @@
             Profil
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowSejarah">Sejarah Nagari</a>
             <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowDemografi">Demografis</a>
             <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowGeografi">Geografis</a>
             <a class="dropdown-item" href="<?php echo base_url();?>/C_PerangkatDesa/showDetailPerdes">Pemerintah Desa</a>

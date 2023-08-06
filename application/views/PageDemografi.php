@@ -42,9 +42,13 @@
                 <div class="col-12 col-xl-8">
                     <div class="post-details-content bg-white mb-30 p-30 box-shadow">
                     <div class="section-heading">
-                            <h4>Kondisi Demografis Parik Panjang</h4>
+                            <h4>Kondisi Demografis</h4>
                     </div>
-                        <p style="text-align: justify-all;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet tellus cras adipiscing enim eu turpis. Est placerat in egestas erat imperdiet. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eu non diam phasellus vestibulum lorem. Facilisi cras fermentum odio eu feugiat pretium. Vitae aliquet nec ullamcorper sit. Dictum varius duis at consectetur. Eget aliquet nibh praesent tristique. Tristique nulla aliquet enim tortor at.</p>
+                        <p style="text-align: justify;">Jumlah penduduk Nagari Parik Panjang menurut data yang ada pada Wali Nagari, penduduk Nagari Parik Panjang berjumlah sebanyak ± 492 jiwa yang terdiri atas ± 280 orang perempuan, ± 212 orang laki-laki dan 151 kepala keluarganya.</p>
+                        <p style="text-align: justify;">Dalam persoalan pendidikan masyarakat Nagari Parik Panjang cukup banyak yang sampai ke jenjang Perguruan Tinggi, Adapun pendidikan penduduk yang ada di kampung rata-rata tamat SMA dan bahkan SMP.
+Nagari Parik Panjang memiliki sekolah dasar (SD),  seluruh anak-anak desa tersebut pergi sekolah ke SD tersebut, bertempat di SD 22 Bukik Apik  terletak di Jorong Parik Panjang. Nagari Parik Panjang memiliki Taman Pendidikan Qur’an (TPQ) yang saat ini bertempat di Mushalla TPQ.</p>
+<p style="text-align: justify;">Untuk tempat belajar bagi anak-anak SD, anak-anak Nagari Parik Panjang mesti pergi ke Jorong Parik Panjang karena untuk di Nagari Parik Panjang hanya ada SD. Sebagian ada juga yang pergi mengenyam pendidikan di luar daerah  seperti: SMA atau SMK di Matua, apalagi untuk tingkat Perguruan Tinggi (PT) yang nyata sarananya belum ada di Nagari Parik Panjang.</p>
+<p style="text-align: justify;">Masyarakat Nagari Parik Panjang semuanya beragama Islam, sedangkan sarana peribadatannya adalah Mushalla TPQ, At-Taqwa dan Al-Falah. Dan memiliki dua buah mesjid yang bernama Mesjid Taqwa yang merupakan tempat ibadah, sementara Masjid Batu sudah tidak digunakan lagi.</p>
                     <div class="section-heading">
                             <h4>Profesi</h4>
                     </div>
@@ -69,57 +73,6 @@
                       </tbody>
                   <?php } } ?>
               </table>    
-              <div class="section-heading">
-                            <h4>Etnis</h4>
-                    </div>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                            
-                            <th scope="col">Nama Etnis</th>
-                            <th scope="col">Jumlah Laki Laki </th>
-                            <th scope="col">Jumlah Perempuan </th>
-                            </tr>
-                        </thead>
-                      <?php 
-                      $no=1;
-                      if (is_array($etnis) || is_object($etnis)){
-                          foreach ($etnis as $e){ ?>
-                          <tbody>
-                        
-                          <td><?php echo $e->nama_etnis ?></td>
-                          <td><?php echo $e->lk_etnis ?></a></td>
-                          <td><?php echo $e->pr_etnis ?></a></td>
-                          </tbody>
-                      <?php } } ?>
-                  </table> 
-                  <div class="section-heading">
-                            <h4>Agama</h4>
-                    </div>
-                    <table class="table">
-                    <thead>
-                        <tr>
-                       
-                        <th scope="col">Nama Agama</th>
-                        <th scope="col">Jumlah Laki Laki </th>
-                        <th scope="col">Jumlah Perempuan </th>
-                        </tr>
-                    </thead>
-                  <?php 
-                  $no=1;
-                  if (is_array($agama) || is_object($agama)){
-                      foreach ($agama as $a){ ?>
-                      <tbody>
-                     
-                      <td><?php echo $a->nama_agama ?></td>
-                      <td><?php echo $a->lk_agama ?></a></td>
-                      <td><?php echo $a->pr_agama ?></a></td>
-                      
-                     </tbody>
-                  <?php } } ?>
-              </table> 
-                        
-
                     </div>
                 </div>
 
