@@ -13,7 +13,7 @@
     <div class="col-md-4">
       <section class="login-form">
         <form method="post" action="<?php echo base_url();?>C_Login/login" role="login">
-          <img src="<?php echo base_url();?>assets/img/logos/lambang_kota_batu.png" width="150" height="50">
+          <img src="<?php echo base_url();?>assets/img/logos/lambang_kota_batu.png" width="75" height="75">
           <input type="email" name="email" placeholder="Email" id="email" required class="form-control input-lg" value="" />
           
           <input type="password" name="password" class="form-control input-lg" id="password" placeholder="Password" required="" />

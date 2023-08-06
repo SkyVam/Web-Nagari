@@ -82,7 +82,7 @@
                             </div>
                             <div class="text">
                                 <p>Lokasi Balaidesa:</p>
-                                <h6>Jl. Indragiri No.30 Sumberejo Kec. Batu Kota Batu, Jawa Timur 65318</h6>
+                                <h6>Jalan Parik Panjang - Pauah, Matur, Parik Panjang, Kec. Matur, Kabupaten Agam, Sumatera Barat 26162</h6>
                             </div>
                         </div>
 

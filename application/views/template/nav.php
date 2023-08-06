@@ -48,7 +48,7 @@
             <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowSejarah">Sejarah Nagari</a>
             <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowDemografi">Demografis</a>
             <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowGeografi">Geografis</a>
-            <a class="dropdown-item" href="<?php echo base_url();?>/C_PerangkatDesa/showDetailPerdes">Pemerintahan Nagari</a>
+            <a class="dropdown-item" href="<?php echo base_url();?>/C_PerangkatDesa/showDetailPerdes">Pemerintah Nagari</a>
             <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowVisiMisi">Visi Misi</a>
             <a class="dropdown-item" href="<?php echo base_url();?>/C_Profil/ShowPeta">Peta</a>
           </li>

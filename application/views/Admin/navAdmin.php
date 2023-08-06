@@ -26,7 +26,7 @@
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
     
-    <a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/img/logos/lambang_kota_batu.png" width="150" height="50"></a>
+    <a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/img/logos/lambang_kota_batu.png" width="75" height="75"></a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
      

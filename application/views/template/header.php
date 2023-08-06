@@ -26,7 +26,7 @@
 <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
     <div class="container">
-      <img src="<?php echo base_url();?>assets/img/logos/lambang_kota_batu.png" width="150" height="50">
+      <img src="<?php echo base_url();?>assets/img/logos/lambang_kota_batu.png" width="75" height="75">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
