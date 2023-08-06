@@ -22,7 +22,6 @@ class C_Demografis extends CI_Controller {
         $id_agama = $this->input->get('id_agama', true);
         $nama_demo = $this->input->post('nama_demo', true);
         $jumlah_laki = $this->input->post('lk_agama', true);
-        $jumlah_pr = $this->input->post('pr_agama', true);
         $this->M_Agama->updateAgama($id_agama, $nama_demo, $jumlah_laki, $jumlah_pr);
         redirect('C_Demografis/ShowHalamanDemografis');
     }
@@ -31,7 +30,6 @@ class C_Demografis extends CI_Controller {
         $id_profesi = $this->input->get('id_profesi', true);
         $nama_demo = $this->input->post('nama_demo', true);
         $jumlah_laki = $this->input->post('lk_profesi', true);
-        $jumlah_pr = $this->input->post('pr_profesi', true);
         $this->M_Profesi->updateProfesi($id_profesi, $nama_demo, $jumlah_laki, $jumlah_pr);
         redirect('C_Demografis/ShowHalamanDemografis');
     }
@@ -70,16 +68,6 @@ class C_Demografis extends CI_Controller {
         $data['agama'] = $this->M_Agama->getSingleAgama($id_agama);
         $this->load->view('Admin/EditAgama',$data);
     }
-
-    public function showHalamanEditEtnis(){
-        $this->load->view('Admin/navAdmin');
-        $id_etnis = $this->input->get('id_etnis', true);
-        $data['etnis'] = $this->M_Etnis->getSingleEtnis($id_etnis);
-        $this->load->view('Admin/EditEtnis',$data);
-    }
-
-    
-
     public function showHalamanEditProfesi(){
         $this->load->view('Admin/navAdmin');
         $id_profesi = $this->input->get('id_profesi', true);

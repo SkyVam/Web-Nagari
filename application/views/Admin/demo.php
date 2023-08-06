@@ -126,83 +126,7 @@
       <br>
       <br>
       
-      <!-- Breadcrumbs-->
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a >Agama</a>
-        </li>
-        
-      </ol>
       
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Id Agama</th>
-            <th scope="col">Nama Agama</th>
-            <th scope="col">Jumlah Laki Laki </th>
-            <th scope="col">Jumlah Perempuan </th>
-            <th scope="col">Aksi </th>
-          </tr>
-        </thead>
-        <?php 
-        $no=1;
-        if (is_array($agama) || is_object($agama)){
-          foreach ($agama as $a){ ?>
-            <tbody>
-              <td><?php echo $a->id_agama ?></td>
-              <td><?php echo $a->nama_agama ?></td>
-              <td><?php echo $a->lk_agama ?></a></td>
-              <td><?php echo $a->pr_agama ?></a></td>
-              <td>
-                <a href="<?php echo base_url();?>C_Demografis/hapusAgama?id_agama=<?php echo $a->id_agama?>">Delete</a>
-                <a href="<?php echo base_url();?>C_Demografis/showHalamanEditAgama?id_agama=<?php echo $a->id_agama?>">Edit</a>
-              </td>
-            </tbody>
-          <?php } } ?>
-        </table> 
-
-        <br>
-        <br>   
-
-        <!-- Breadcrumbs-->
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a >Etnis</a>
-          </li>
-          
-        </ol>
-        
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Id Etnis</th>
-              <th scope="col">Nama Etnis</th>
-              <th scope="col">Jumlah Laki Laki </th>
-              <th scope="col">Jumlah Perempuan </th>
-              <th scope="col">Aksi </th>
-            </tr>
-          </thead>
-          <?php 
-          $no=1;
-          if (is_array($etnis) || is_object($etnis)){
-            foreach ($etnis as $e){ ?>
-              <tbody>
-                <td><?php echo $e->id_etnis ?></td>
-                <td><?php echo $e->nama_etnis ?></td>
-                <td><?php echo $e->lk_etnis ?></a></td>
-                <td><?php echo $e->pr_etnis ?></a></td>
-                <td>
-                  <a href="<?php echo base_url();?>C_Demografis/hapusEtnis?id_etnis=<?php echo $e->id_etnis?>">Delete</a>
-                  <a href="<?php echo base_url();?>C_Demografis/showHalamanEditEtnis?id_etnis=<?php echo $e->id_etnis?>">Edit</a>
-                </td>
-              </tbody>
-            <?php } } ?>
-          </table> 
-
-          <br>
-          <br>   
-          
-
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -216,8 +140,7 @@
               <tr>
                 <th scope="col">Id Profesi</th>
                 <th scope="col">Nama Profesi</th>
-                <th scope="col">Jumlah Laki  Laki </th>
-                <th scope="col">Jumlah Perempuan </th>
+                <th scope="col">Jumlah</th>
                 <th scope="col">Aksi </th>
               </tr>
             </thead>
@@ -229,14 +152,48 @@
                   <td><?php echo $p->id_profesi ?></td>
                   <td><?php echo $p->nama_profesi ?></td>
                   <td><?php echo $p->lk_profesi ?></a></td>
-                  <td><?php echo $p->pr_profesi ?></a></td>
                   <td>
                     <a href="<?php echo base_url();?>C_Demografis/hapusProfesi?id_profesi=<?php echo $p->id_profesi?>">Delete</a>
                     <a href="<?php echo base_url();?>C_Demografis/showHalamanEditProfesi?id_profesi=<?php echo $p->id_profesi?>">Edit</a>
                   </td>
                 </tbody>
               <?php } } ?>
-            </table>    
+            </table>
+            <br>
+            <br>
+            <!-- Breadcrumbs-->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a >Agama</a>
+        </li>
+        
+      </ol>
+      
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Id Agama</th>
+            <th scope="col">Nama Agama</th>
+            <th scope="col">Jumlah </th>
+            <th scope="col">Aksi </th>
+          </tr>
+        </thead>
+        <?php 
+        $no=1;
+        if (is_array($agama) || is_object($agama)){
+          foreach ($agama as $a){ ?>
+            <tbody>
+              <td><?php echo $a->id_agama ?></td>
+              <td><?php echo $a->nama_agama ?></td>
+              <td><?php echo $a->lk_agama ?></a></td>
+              <td>
+                <a href="<?php echo base_url();?>C_Demografis/hapusAgama?id_agama=<?php echo $a->id_agama?>">Delete</a>
+                <a href="<?php echo base_url();?>C_Demografis/showHalamanEditAgama?id_agama=<?php echo $a->id_agama?>">Edit</a>
+              </td>
+            </tbody>
+          <?php } } ?>
+        </table> 
+
           </div>
           <!-- /.content-wrapper -->
 

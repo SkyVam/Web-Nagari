@@ -111,53 +111,6 @@
     
   </ul>
   <!--end of Sidebar-->
-
-
-  <div id="content-wrapper">
-
-    <div class="container-fluid">
-
-      <!-- Breadcrumbs-->
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a ><center>Edit Etnis</center></a>
-        </li>
-        
-      </ol>
-
-      <?php 
-      $no=1;
-      if (is_array($etnis) || is_object($etnis)){
-       foreach ($etnis as $a){ ?>
-
-
-        <form method="post" enctype="multipart/form-data" action="<?php echo base_url();?>C_Demografis/editEtnis?id_etnis=<?php echo $a->id_etnis?>">
-          <p>Nama Etnis : </p>
-          <div class="form-group">
-            <input class="form-control" name="nama_demo" id="nama_demo" type="text"  required="required" value="<?php echo $a->nama_etnis ?>">
-            <p class="help-block text-danger"></p>
-          </div>
-          <p>Jumlah Laki Laki : </p>
-          <div class="form-group">
-            <input class="form-control" name="lk_etnis" id="lk_etnis" type="text"  required="required" value="<?php echo $a->lk_etnis ?>">
-            <p class="help-block text-danger"></p>
-          </div>
-          <p>Jumlah Perempuan : </p>
-          <div class="form-group">
-            <input class="form-control" name="pr_etnis" id="pr_etnis" type="text"  required="required" value="<?php echo $a->pr_etnis ?>">
-            <p class="help-block text-danger"></p>
-          </div>
-          <div class="col-lg-12 text-center">
-            <div id="success"></div>
-            <button  class="btn btn-primary btn-xl text-uppercase" type="submit">Simpan Pembaruan</button>
-          </div>
-          
-        </form>
-      <?php } } ?>
-    </div>
-    <!-- /.content-wrapper -->
-
-  </div>
   <!-- /#wrapper -->
 
   <!-- Scroll to Top Button-->

@@ -115,7 +115,7 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-users fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">5566</h4>
+          <h4 class="service-heading">492</h4>
           <p class="text-muted">JUMLAH PENDUDUK</p>
         </div>
         <div class="col-md-4">
@@ -123,7 +123,7 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-male fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">2760</h4>
+          <h4 class="service-heading">212</h4>
           <p class="text-muted">JUMLAH LAKI-LAKI</p>
         </div>
         <div class="col-md-4">
@@ -131,7 +131,7 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-female fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">2806</h4>
+          <h4 class="service-heading">280</h4>
           <p class="text-muted">JUMLAH WANITA</p>
         </div>
       </div>

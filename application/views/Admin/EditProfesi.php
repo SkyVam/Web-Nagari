@@ -125,7 +125,7 @@
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a ><center>Edit Etnis</center></a>
+            <a ><center>Edit Profesi</center></a>
           </li>
           
         </ol>
@@ -141,14 +141,9 @@
               <input class="form-control" name="nama_demo" id="nama_demo" type="text"  required="required" value="<?php echo $a->nama_profesi ?>">
               <p class="help-block text-danger"></p>
             </div>
-            <p>Jumlah Laki Laki : </p>
+            <p>Jumlah : </p>
             <div class="form-group">
               <input class="form-control" name="lk_profesi" id="lk_profesi" type="text"  required="required" value="<?php echo $a->lk_profesi ?>">
-              <p class="help-block text-danger"></p>
-            </div>
-            <p>Jumlah Perempuan : </p>
-            <div class="form-group">
-              <input class="form-control" name="pr_profesi" id="pr_profesi" type="text"  required="required" value="<?php echo $a->pr_profesi ?>">
               <p class="help-block text-danger"></p>
             </div>
             <div class="col-lg-12 text-center">

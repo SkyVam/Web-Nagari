@@ -57,8 +57,7 @@ Nagari Parik Panjang memiliki sekolah dasar (SD),  seluruh anak-anak desa terseb
                         <tr>
                       
                         <th scope="col">Nama Profesi</th>
-                        <th scope="col">Jumlah Laki  Laki </th>
-                        <th scope="col">Jumlah Perempuan </th>
+                        <th scope="col">Jumlah</th>
                         </tr>
                     </thead>
                   <?php 
@@ -69,7 +68,6 @@ Nagari Parik Panjang memiliki sekolah dasar (SD),  seluruh anak-anak desa terseb
                     
                       <td><?php echo $p->nama_profesi ?></td>
                       <td><?php echo $p->lk_profesi ?></a></td>
-                      <td><?php echo $p->pr_profesi ?></a></td>
                       </tbody>
                   <?php } } ?>
               </table>    

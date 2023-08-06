@@ -140,14 +140,9 @@
               <input class="form-control" name="nama_demo" id="nama_demo" type="text"  required="required" value="<?php echo $a->nama_agama ?>">
               <p class="help-block text-danger"></p>
             </div>
-            <p>Jumlah Laki Laki : </p>
+            <p>Jumlah : </p>
             <div class="form-group">
               <input class="form-control" name="lk_agama" id="lk_agama" type="text"  required="required" value="<?php echo $a->lk_agama ?>">
-              <p class="help-block text-danger"></p>
-            </div>
-            <p>Jumlah Perempuan : </p>
-            <div class="form-group">
-              <input class="form-control" name="pr_agama" id="pr_agama" type="text"  required="required" value="<?php echo $a->pr_agama ?>">
               <p class="help-block text-danger"></p>
             </div>
             <div class="col-lg-12 text-center">

@@ -31,7 +31,6 @@ public function updateAgama($id_agama, $nama_demo, $jumlah_laki, $jumlah_pr){
     $data = array(
             'nama_agama' => $nama_demo,
             'lk_agama' => $jumlah_laki,
-            'pr_agama' => $jumlah_pr,
             );
     $where = array(
             'id_agama' => $id_agama,
@@ -43,7 +42,6 @@ public function tambahAgama($nama_demo, $jumlah_laki, $jumlah_pr){
         $data = array(
             'nama_agama' => $nama_demo,
             'lk_agama' => $jumlah_laki,
-            'pr_agama' => $jumlah_pr,
             );
         $this->db->insert('agama',$data);
     }

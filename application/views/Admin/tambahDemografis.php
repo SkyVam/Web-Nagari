@@ -124,29 +124,23 @@
         
       </ol>
       <form method="post" enctype="multipart/form-data" action="<?php echo base_url();?>C_Demografis/tambah">
-        <p>Jenis Demografis (Agama/Etnis/Profesi) : </p>
+        <p>Jenis Demografis (Agama/Profesi) : </p>
         <div class="form-group">
           <select name='demo'>
-
-            <option value='agama'>Agama</option>
-            <option value='etnis'>Etnis</option>
             <option value='profesi'>Profesi</option>
+            <option value='agama'>Agama</option>
+            
           </select>
           <p class="help-block text-danger"></p>
         </div>
-        <p>Nama Agama/Etnis/Profesi  : </p>
+        <p>Nama Agama/Profesi  : </p>
         <div class="form-group">
           <input class="form-control" name="nama_demo" id="nama_demo" type="text"  required="required" >
           <p class="help-block text-danger"></p>
         </div>
-        <p>Jumlah Laki Laki : </p>
+        <p>Jumlah : </p>
         <div class="form-group">
           <input class="form-control" name="lk_demo" id="lk_demo" type="text"  required="required" >
-          <p class="help-block text-danger"></p>
-        </div>
-        <p>Jumlah Perempuan : </p>
-        <div class="form-group">
-          <input class="form-control" name="pr_demo" id="pr_edmo" type="text"  required="required" >
           <p class="help-block text-danger"></p>
         </div>
         <div class="col-lg-12 text-center">

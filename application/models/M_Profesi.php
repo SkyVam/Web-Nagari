@@ -31,7 +31,6 @@ public function getProfesi(){
     $data = array(
             'nama_profesi' => $nama_demo,
             'lk_profesi' => $jumlah_laki,
-            'pr_profesi' => $jumlah_pr,
             );
     $where = array(
             'id_profesi' => $id_profesi,
@@ -44,7 +43,6 @@ public function tambahProfesi($nama_demo, $jumlah_laki, $jumlah_pr){
         $data = array(
             'nama_profesi' => $nama_demo,
             'lk_profesi' => $jumlah_laki,
-            'pr_profesi' => $jumlah_pr,
             );
         $this->db->insert('profesi',$data);
     }
