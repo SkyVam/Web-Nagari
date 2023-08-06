@@ -30,7 +30,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright @KKN NAND 2023</span>
+          <span class="copyright">Copyright @KKN UNAND 2023</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">

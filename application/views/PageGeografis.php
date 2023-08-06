@@ -47,11 +47,11 @@
                         <div class="section-heading">
                             <h4>Tentang Desa</h4>
                         </div>            
-                        <p style="text-align: justify-all;">Nagari Parik Panjang terletak di Kecamatan Matur Kabupaten Agam. Jorong ini berada sekitar ± 2,5 km dari Pasar Matur sebagai pasar utama di Nagari Parik Panjang, dan dari kota Bukittinggi berjarak sekitar ± 90 km. Batas wilayah Nagari Parik Panjang sebelah timur berbatasan dengan Nagari Panta Pauh, sebelah barat berbatasan dengan Nagari Matur Mudiak, sebelah utara berbatasan dengan Nagari Matua Mudiak, adapun sebelah selatan berbatasan dengan Nagari Matua Hilia. </p>
-                        <p style="text-align: justify-all;">Nagari Parik Panjang adalah sebuah desa yang terletak di Kecamatan Matur Kabupaten Agam. Nagari Parik Panjang daerahnya terdiri dari persawahan, perkebunan. Persawahan di Nagari Parik Panjang memiliki musim tanam dan musim panen yang berbeda, sementara perkebunan dipenuhi dengan perkebunan Tebu dan Cabe.</p>
-<p style="text-align: justify-all;">Nagari Parik Panjang adalah sebuah desa yang kaya akan air dan juga dialiri oleh sungai yang berasal dari mata air perbukitan di dekat Nagari Parik Panjang tersebut.
+                        <p style="text-align: justify;">Nagari Parik Panjang terletak di Kecamatan Matur Kabupaten Agam. Jorong ini berada sekitar ± 2,5 km dari Pasar Matur sebagai pasar utama di Nagari Parik Panjang, dan dari kota Bukittinggi berjarak sekitar ± 90 km. Batas wilayah Nagari Parik Panjang sebelah timur berbatasan dengan Nagari Panta Pauh, sebelah barat berbatasan dengan Nagari Matur Mudiak, sebelah utara berbatasan dengan Nagari Matua Mudiak, adapun sebelah selatan berbatasan dengan Nagari Matua Hilia. </p>
+                        <p style="text-align: justify;">Nagari Parik Panjang adalah sebuah desa yang terletak di Kecamatan Matur Kabupaten Agam. Nagari Parik Panjang daerahnya terdiri dari persawahan, perkebunan. Persawahan di Nagari Parik Panjang memiliki musim tanam dan musim panen yang berbeda, sementara perkebunan dipenuhi dengan perkebunan Tebu dan Cabe.</p>
+<p style="text-align: justify;">Nagari Parik Panjang adalah sebuah desa yang kaya akan air dan juga dialiri oleh sungai yang berasal dari mata air perbukitan di dekat Nagari Parik Panjang tersebut.
 Seperti sudah tradisi di Nagari Parik Panjang, bahwa pemuda/I nya apabila ingin melanjutkan menuntut ilmu ke jenjang yang lebih tinggi seperti melanjutkan sekolah menengah umum atau pun kuliah, mereka melanjutkan keluar daerah Parik Panjang seperti ke Padang, Bukittinggi dan kota-kota lainnya dikarenakan di Nagari Parik Panjang tidak ada  Sekolah Menengah Umum (SMU), di Nagari Parik Panjang hanya  berdiri Sekolah Dasar (SD) saja itupun di gabung dengan dua jorong yaitu Jorong Parik Panjang dan Jorong Mudiak Sawah. </p>
-<p style="text-align: justify-all;">Tetapi ada juga dari pemuda/I yang lain tidak ingin melanjutkan sekolah ke jenjang berikutnya hanya tamat SD atau SMP, karena ingin menolong orang tua yang bekerja sebagai petani, dan pada umumnya mereka lebih banyak merantau daripada tinggal di desa mereka. Oleh karena itu sulit untuk mencari pemuda/I di Nagari Parik Panjang tersebut.</p>
+<p style="text-align: justify;">Tetapi ada juga dari pemuda/I yang lain tidak ingin melanjutkan sekolah ke jenjang berikutnya hanya tamat SD atau SMP, karena ingin menolong orang tua yang bekerja sebagai petani, dan pada umumnya mereka lebih banyak merantau daripada tinggal di desa mereka. Oleh karena itu sulit untuk mencari pemuda/I di Nagari Parik Panjang tersebut.</p>
                         <!-- Team Member Area -->
                         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -64,99 +64,37 @@ Seperti sudah tradisi di Nagari Parik Panjang, bahwa pemuda/I nya apabila ingin 
   <table class="w3-table w3-bordered">
    
     <tr>
-      <td>Luas Pemukiman</td>
-      <td>533.700 m2</td>
+      <td>Luas Kemiringan Lahan</td>
+      <td>50,380 Ha</td>
 
     </tr>
     <tr>
-      <td>Luas Persawahan</td>
-      <td>846.030 m2</td>
+      <td>Ketinggian di Atas Permukaan Laut</td>
+      <td>1200 m</td>
    
     </tr>
     <tr>
-      <td>Luas Perkebunan/Lindung</td>
-      <td>1.290.000 m2</td>
+      <td>Irigasi berpengairan teknis</td>
+      <td>-</td>
     </tr>
   <tr>
-      <td>Luas Kuburan/Lapang</td>
-      <td>180.000 m2</td>
+      <td>Sawah Teririgasi</td>
+      <td>122,180 Ha</td>
     </tr>
 <tr>
-      <td>Luas Pekarangan/Lapang TKD</td>
-      <td>589.000 m2</td>
+      <td>Sawah Tadah Hujan</td>
+      <td>6,280 Ha</td>
     </tr>
 <tr>
-      <td>Luas Taman/Jalan</td>
-      <td>450.570 m2</td>
+      <td>Luas Lahan Pemukiman</td>
+      <td>40,106 Ha</td>
     </tr>
 <tr>
-      <td>Perkantoran</td>
-      <td>700 m2</td>
+      <td>Kawasan Rawan Bencana</td>
+      <td>8,204 Ha</td>
     </tr>
-<tr>
-      <td>Luas Prasarana umum lainnya</td>
-      <td>90.000 m2</td>
-    </tr>
-<tr>
-      <td><b>Total Luas</td>
-      <td><b>3.950.000 m2</td>
-    </tr>
-
   </table>
 </div>
-
-                              <div class="section-heading mt-30">
-                            <h5>Jalan Desa</h5>
-                        </div>
-                            <div class="w3-container">
-  
-
-  <table class="w3-table w3-bordered">
-   <tr>
-      <th>Nama Jalan</th>
-      <th>Panjang/Jumlah</th>
- 
-    </tr>
-    <tr>
-      <td>Jalan Provinsi</td>
-      <td>2 km</td>
-
-    </tr>
-    <tr>
-      <td>Jalan Kabupaten</td>
-      <td>1,2 km</td>
-   
-    </tr>
-    <tr>
-      <td>Jalan Desa</td>
-      <td>4 km</td>
-    </tr>
-  <tr>
-      <td>Jalan Makadam</td>
-      <td>1,5 km</td>
-    </tr>
-<tr>
-      <td>Jalan Tanah</td>
-      <td>3 km</td>
-    </tr>
-<tr>
-      <td>Jalan Konblok/Semen/Beton</td>
-      <td>3,5 km</td>
-    </tr>
-<tr>
-      <td>Jembatan Beton</td>
-      <td>3 km</td>
-    </tr>
-<tr>
-      <td>Luas Prasarana umum lainnya</td>
-      <td>90.000 m2</td>
-    </tr>
-
-  </table>
-</div>
-
-                        
-
                     </div>
                 </div>
 

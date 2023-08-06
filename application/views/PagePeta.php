@@ -26,7 +26,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2>Peta Desa</h2>
+                        <h2>Peta Nagari</h2>
                     </div>
                 </div>
             </div>
@@ -44,10 +44,10 @@
                     <div class="about-us-content bg-white mb-30" style="margin-top: -80px;">
                         <!-- Section Title -->
                         <div class="section-heading">
-                            <h4>Peta Desa</h4>
+                            <h4>Peta Nagari</h4>
                         </div>
-                        <img src="<?php echo base_url();?>assets/img/peta.jpg" width="1300" height="1300">
-                        
+                        <img src="<?php echo base_url();?>assets/img/peta.jpg" width="1300" height="1300"> <br><br>
+                        <img src="<?php echo base_url();?>assets/img/peta2.jpg" width="1300" height="1300">
                     </div>
                 </div>
 

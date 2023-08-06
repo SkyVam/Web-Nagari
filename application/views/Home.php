@@ -89,7 +89,7 @@
                        </p>
      
                       <h4 style="text-align: center;background-color: #ffc71f;">Misi </h4>
-                           <p style="margin-left: 45px; margin-top: 20px">  <justify>
+                           <p style="text-align: justify;">
                            1. Meningkatkan Profesionalisme Perangkat Nagari. <br>
 2. Melanjutkan Program-program Pemerintah Nagari yang Sebelumnya dan Mengaktifkan Aset-aset Nagari yang Sudah Ada. <br>
 3. Pemberdayaan Ekonomi Masyarakat Nagari. <br>
@@ -97,8 +97,7 @@
 5. Mewujudkan Sarana dan Prasarana Nagari yang Memadai dan Tepat Guna. <br>
 6. Meningkatkan Kehidupan Nagari Secara Dinamis dalam Segi Keagamaan dan Kebudayaan. <br>
 7. Mewujudkan Kondisi Nagari yang Aman, Tertib dan Rukun.
-
-                     </justify>  </p>
+</p>
                        
                       </div>
                 
