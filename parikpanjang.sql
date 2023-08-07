@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 20 Jul 2023 pada 18.00
+-- Waktu pembuatan: 06 Agu 2023 pada 21.21
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 7.4.3
 
@@ -60,8 +60,7 @@ CREATE TABLE `agama` (
 --
 
 INSERT INTO `agama` (`id_agama`, `nama_agama`, `lk_agama`, `pr_agama`) VALUES
-(1, 'Islam', 800, 80),
-(2, 'Katolik', 500, 100);
+(1, 'Islam', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -80,7 +79,7 @@ CREATE TABLE `apbd` (
 --
 
 INSERT INTO `apbd` (`id_apbd`, `tahun_apbd`, `foto_apbd`) VALUES
-(3, '2019', '2019_1569390111.jpg');
+(4, '2023', '2023_1691345692.jpg');
 
 -- --------------------------------------------------------
 
@@ -95,13 +94,6 @@ CREATE TABLE `artikel` (
   `isi_artikel` text NOT NULL,
   `foto_artikel` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data untuk tabel `artikel`
---
-
-INSERT INTO `artikel` (`id_artikel`, `judul_artikel`, `tanggal_artikel`, `isi_artikel`, `foto_artikel`) VALUES
-(3, 'Nagari Parik Panjang Kembali Pendaftaran Calon Kepala Desa', '2023-07-18 12:16:19.412019', 'Desa Sumberejo Kecamatan Batu dan Desa Gunungsari Kecamatan Bumiaji, Kota Batu kembali membuka pendaftaran bakal calon kepala desa. Hal ini dilakukan karena pendaftar sebelumnya tidak memenuhi verifikasi.\r\n\r\nKasubag Pemerintahan Desa, Bagian Pemerintahan Setda Kota Batu Abdul Salam menjelaskan, di Desa Sumberjo, seluruh pendaftar tidak lolos verifikasi. Lalu, Desa Gunungsari hanya ada 1 pendaftar.\r\n\r\n\"Desa Sumberjo dan Gunungsari membuka kembali pendaftaran calon kades tahap dua ini,\" terang Salam di kantornya, Senin (19/8/2019).\r\n\r\n\r\nTahap kedua ini telah dimulai sejak Jumat (9/8/2019) hingga tanggal 28 Agustus 2019. Jika sampai batas akhir waktu pendaftaran tidak ada bacalon yang mendaftar, maka sesuai aturan bisa dipastikan kedua desa itu tidak bisa mengikuti pilkades serentak.\r\n\r\n', 'Desa_Sumberejo_dan_Desa_Gunungsari_di_Kota_Batu_Buka_Kembali_Pendaftaran_Calon_Kepala_Desa_1569381051.jpg');
 
 -- --------------------------------------------------------
 
@@ -124,11 +116,7 @@ CREATE TABLE `berita` (
 --
 
 INSERT INTO `berita` (`id_berita`, `judul_berita`, `tanggal_berita`, `isi_berita`, `foto_berita`, `nama_penulis`, `status`) VALUES
-(13, 'Undangan Warga ', '2019-09-25 10:07:53.456201', 'Kepada seluruh warga Sumberejo diharapkan datang pada acara peresmian taman desa sumberejo pada hari jumat, 27 September 2019 di Balaikota Desa Sumberejo. Undangan terlampir', 'Undangan_Warga_Sumberejo__1574311022.jpg', 'Desa Sumberejo', 'terbit'),
-(14, 'Tiga Bakal Calon Tak Lolos Verifikasi, Desa Sumberejo Buka Pendaftaran Pilkades Tahap III', '2019-09-25 10:18:40.055897', 'Bukan hanya Desa Gunungsari Kecamatan Bumiaji yang harus membuka pendaftaran pemilihan kepala desa (pilkades) tahap dua. Desa Sumberejo, Kecamatan Batu juga harus melakukan pendaftaran tahap dua.\r\n\r\nDesa Sumberejo terpaksa harus melakukan  pembukaan pendaftaran tahap dua, lantaran bakal calon tidak memenuhi persyaratan. Desa Sumberejo tersebut tidak memenuhi persyaratan karena empat bakal calon yang mengambil formulir tidak lolos verifikasi.\r\n\r\nMereka yang melakukan pilkades Desa Sumberejo ada Riyanto (incumbent), Tekat, dan Novi Dwi Istika. “Sayangnya ada yang persyaratan yang tidak memenuhi,” ungkap Kasubag Pemerintahan Desa Bag Pemerintahan Kota Batu, Abdul Salam.\r\n\r\nSedangkan di Desa Gunungsari hanya memiliki satu bakal calon kepala desa yakni Andi Susili yang merupakan incambent. Karena itu pendaftaran tahap II dibuka pada 9-28 Agustus mendatang. “Hal ini mengacu pada Perda Kota Batu No 1 tahun 2015 tentang Desa dan Diubah No 5 tahun 2018. Serta Perwali No 32 tahun 2016 yang diubah No 76 tahun 2017,” katanya.\r\n\r\nSedang dalam Pilkades tahun 2019 ini ada 11 desa yang mengikuti. Ada 35 bakal calon kepala desa yang mengambil formulir. Di masing-masing desa itu ada bakal calon yang melakukan pendaftaran rata-rata 2-5 orang per desanya. Dari data 11 desa yang masuk di Bagian Pemerintahan Kota Batu, berikut nama calon yang telah mengambil formulir.\r\n\r\nAntara lain di Kecamatan Bumiaji ada Desa Tulungrejo yang memiliki lima bakal calon yakni Mardianto, Prastiono, Adi Sasmito, Suliono (incumbent), dan Arrohman Mustofa.\r\n\r\nLalu di Desa Bumiaji ada Edi Susanto (incumbent), Suhariono, dam Ali Mustofa (mantan anggota DPRD). Kemudian Desa Gunungsari ada satu orang yakni Andi Susili (incumbent). Lainnya di Desa Punten ada Hening Trisunu (Sekdes Punten) dan Suliani. Sedangkan di Desa Giripurno ada Maskut dan Suntoro.\r\n\r\nUntuk di Kecamatan Batu ada Desa Sidomulyo bakal calon kepala desa yang mendaftar ada Suharto (incumbent), Hanafi (anggota BPD ), Hernanto (mantan sekdes). Lalu di Desa Sumberejo ada Riyanto (incumbent), Tekat, dan Novi Dwi Istika. Kemudian Desa Oro-Oro Ombo ada Wiweko (incamben), Lukito Bowo, Kandam, Heri pranowo, dan Gatot.\r\n\r\nSedangkan di Kecamatan Junrejo ada Desa Beji bakal calonnya ada Wawan Sulistiono, Deni Cahyono, Iwan Riswanto, dan Dedi Irawan.Lalu untuk Desa Torongrejo ada Moh Yakni (Mantan Sekdes), Kateni (incumbent), Sugeng Santoso yang juga yang juga mantan kades, dan Jaya. Dan di Desa Junrejo ada Andi faizal H (incumbent), Rohmad Santoso (mantan kades), dan Hadi Wignya (mantan kasun).', 'Tiga_Bakal_Calon_Tak_Lolos_Verifikasi,_Desa_Sumberejo_Buka_Pendaftaran_Pilkades_Tahap_III_1574311007.jpeg', 'Desa Sumberejo', 'terbit'),
-(15, 'Parik Panjang Jadi Desa Percontohan Pemberdayaan Desa', '2019-09-26 08:57:47.698804', '  Hari sabtu kemarin (6/01) kantor Balai Desa Sumberejo terlihat penuh oleh rombongan dari Desa Manyarejo Gresik. Mulai pukul 11.30 WIB, rombongan yang berjumlah sekitar 80 orang termasuk mengunjungi Desa Sumberejo yaitu dalam rangka studi banding pemberdayaan desa. Rombongan dari Gresik merupakan gabungan dari tim pembentukan dan penguatan kader pemberdayaan Desa Manyarejo Kecamatan Manyar Kabupaten Gresik sekaligus sebagian perangkat desa seperti Kepdes dan Sekdes. Kader yang diikutkan pada kegiatan studi banding ini merupakan gabungan ibu-ibu dari anggota guru, PKK, maupun ibu-ibu pejabat desa. Kunjungan ini bertujuan untuk menambah wawasan dan bagi kader Desa Manyarejo untuk pemberdayaan desa terlebih dalam mempercantik lingkungan yang notabene memiliki kemiripan dengan Desa Sumberejo yaitu sebagai lingkungan sentra sayuran.\r\n\r\n            Kegiatan ini dibuka dengan pembacaan susunan acara dan doa oleh mahasiswa KKM dari UIN Malang yang sedang mengabdi di Desa Sumberejo. Acara dilanjutkan dengan sambutan oleh Kepala Desa Manyarejo. Tidak mengambil waktu lama, acara selanjutnya yakni acara inti yang diisi materi oleh Bapak Suharsono, S.H selaku koordinator Desa Wisata Sumberejo sekaligus perangkat desa. Materi yang disampaikan bertema pengelolaan lingkungan berbasir masyarakat yang meliputi (KRPL) Kawasan Rumah Pangan Lestari dan bank sampah. Setelah mendapatkan materi, rombongan diajak untuk berkeliling di RW 07 yang baru saja mendapatkan juara pertama sebagai kampung tercantik se-Kota Batu di tahun 2018.  Diharapkan acara ini dapat mempererat tali silaturrahim antar Desa Manyarejo dan Desa Sumberejo sekaligus adanya transfer ilmu antardesa sehingga program pemberdayaan desa dapat terlaksana secara maksimal.', 'Sumberejo_Jadi_Desa_Percontohan_Pemberdayaan_Desa_1574310995.jpg', 'Desa Sumberejo', 'terbit'),
-(17, 'Web Nagari', '2019-09-26 11:48:29.448525', 'Ini berita', 'Ini_berita_1574310962.jpg', 'Desa Sumberejo', 'terbit'),
-(19, 'Web Nagari', '2019-11-21 10:56:09.009369', 'haiiii', 'mari_kita_coba_1574311041.jpg', 'Desa Sumberejo', 'pending'),
+(17, 'Web Nagari', '2019-09-26 11:48:29.448525', 'Pembuatan Website Nagari oleh Mahasiswa UNAND melalui program kerja KKN PPM UNAND 2023', 'Ini_berita_1574310962.jpg', 'Desa Sumberejo', 'terbit'),
 (20, 'KKN UNAND', '2019-11-21 12:30:09.112392', 'haiiii', 'bismillah_1574314209.png', 'momo', 'terbit');
 
 -- --------------------------------------------------------
@@ -145,19 +133,6 @@ CREATE TABLE `comment` (
   `id_berita` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
---
--- Dumping data untuk tabel `comment`
---
-
-INSERT INTO `comment` (`id`, `username`, `email`, `isi`, `id_berita`) VALUES
-(40, 'ty', 'nuranisa@gmail.com', 'hg', 17),
-(42, 'ty', 'nuranisa@gmail.com', 'hg', 17),
-(44, 'wrewtre', 'nuranisa@gmail.com', 'w2', 17),
-(45, 'anisa', 'nuranisa@gmail.com', 'x', 17),
-(46, '165150201111248', 'admin@gmail.com', 'ffff', 17),
-(48, 'afifah', 'ifa@gmail.com', 'hai juga :)', 20),
-(49, 'ifa', 'ifa@gmail.com', 'berita apa ini?', 17);
-
 -- --------------------------------------------------------
 
 --
@@ -170,14 +145,6 @@ CREATE TABLE `etnis` (
   `lk_etnis` int(10) NOT NULL,
   `pr_etnis` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data untuk tabel `etnis`
---
-
-INSERT INTO `etnis` (`id_etnis`, `nama_etnis`, `lk_etnis`, `pr_etnis`) VALUES
-(1, 'Sunda', 900, 100),
-(2, 'Jawa', 1000, 60);
 
 -- --------------------------------------------------------
 
@@ -198,11 +165,9 @@ CREATE TABLE `foto` (
 --
 
 INSERT INTO `foto` (`id_foto`, `judul_foto`, `caption_foto`, `tanggal_foto`, `foto_galeri`) VALUES
-(5, 'Pemeintah Berikan Motivasi 38 Calon Kepala Desa', '', '2019-09-26 07:12:25', 'Walikota_dan_Wakil_Walikota_Batu_Berikan_Motivasi_38_Calon_Kepala_Desa_1569456745.jpeg'),
-(6, 'Pilkades Desa Parik Panjang', '', '2019-09-26 07:13:40', 'Pilkades_Desa_Sumberejo_1569456820.jpg'),
-(7, 'Pelatihan Situs Keuangan Nagari', '', '2019-09-26 07:15:33', 'Pelatihan_Situs_Keuangan_Desa_Batu_1569456933.jpg'),
-(8, 'Pengajian Nagari Parik Panjang', '', '2019-09-26 08:59:23', 'Pengajian_Desa_Sumberejo_1569463163.jpg'),
-(10, 'Suasana Tahun Baru 2019', '', '2019-09-26 09:01:36', 'Suasana_Tahun_Baru_2019_1569463296.png');
+(11, 'Goro di Dasawisma Bougenville', 'Bersama KKN UNAND', '2023-08-07 01:31:45', 'Goro_di_Dasawisma_Bougenville_1691346705.jpeg'),
+(12, 'Goro Jalan Provinsi', 'Bersama Mahasiswa/i KKN UNAND dan UIN', '2023-08-07 01:33:03', 'Goro_Jalan_Provinsi_1691346783.jpeg'),
+(13, 'Perpisahan KKN UIN Bukittinggi', 'Diadakan di Kantor Wali', '2023-08-07 01:33:42', 'Perpisahan_KKN_UIN_Bukittinggi_1691346822.jpeg');
 
 -- --------------------------------------------------------
 
@@ -266,9 +231,8 @@ CREATE TABLE `organisasi` (
 --
 
 INSERT INTO `organisasi` (`id_org`, `nama_org`, `foto_org`, `deskripsi_org`) VALUES
-(4, 'Karang Taruna ', 'Karang_Taruna__1569381224.png', 'Karang Taruna adalah organisasi kepemudaan di Indonesia. Karang Taruna merupakan wadah pengembangan generasi muda nonpartisan, yang tumbuh atas dasar kesadaran dan rasa tanggung jawab sosial dari, oleh dan untuk masyarakat khususnya generasi muda di wilayah Desa / Kelurahan atau komunitas sosial sederajat, yang terutama bergerak dibidang kesejahteraan sosial. Sebagai organisasi sosial kepemudaan Karang Taruna merupakan wadah pembinaan dan pengembangan serta pemberdayaan dalam upaya mengembangkan kegiatan ekonomis produktif dengan pendayagunaan semua potensi yang tersedia dilingkungan baik sumber daya manusia maupun sumber daya alam yang telah ada. Sebagai organisasi kepemudaan, Karang Taruna berpedoman pada Pedoman Dasar dan Pedoman Rumah Tangga di mana telah pula diatur tentang struktur penggurus dan masa jabatan dimasing-masing wilayah mulai dari Desa / Kelurahan sampai pada tingkat Nasional. Semua ini wujud dari pada regenerasi organisasi demi kelanjutan organisasi serta pembinaan anggota Karang Taruna baik dimasa sekarang maupun masa yang akan datang.\r\n\r\nKarang Taruna beranggotakan pemuda dan pemudi (dalam AD/ART nya diatur keanggotaannya mulai dari pemuda/i berusia mulai dari 11 – 45 tahun) dan batasan sebagai Pengurus adalah berusia mulai 17 – 35 tahun.\r\n\r\nKarang Taruna didirikan dengan tujuan memberikan pembinaan dan pemberdayaan kepada para remaja, misalnya dalam bidang keorganisasian, ekonomi, olahraga, ketrampilan, advokasi, keagamaan dan kesenian.'),
-(5, 'Linmas', 'Linmas_1569381271.png', 'Istilah Linmas yang merupakan singkatan dari Perlindungan Masyarakat telah mengalami distorsi pengertian sehingga terjebak dalam anggapan umum yang hanya mengaitkan dengan sebuah fungsi dalam masyarakat yaitu fungsi linmas atau lebih dikenal dengan Pertahanan Sipil atau Hansip. Merunut kepada kenyataan tersebut maka perlu di gali kembali tentang istilah dan pengertian dari Perlindungan Masyarakat dan Satuan Perlindungan Masyarakat (Satlinmas) itu sendiri. \r\nPengertian Satuan Perlindungan Masyarakat dapat ditemukan pada Peraturan menteri Dalam Negeri Nomor 10 Tahun 2009 tentang Penugasan Satuan Perlindungan Masyarakat Dalam Penanganan Ketenteraman, Ketertiban, Dan Keamanan Penyelenggaraan Pemilihan Umum pada pasal 1 butir 1 yaitu : Satuan Perlindungan Masyarakat yang selanjutnya disebut Satuan Linmas adalah warga masyarakat yang disiapkan dan dibekali pengetahuan serta keterampilan untuk melaksanakan kegiatan penanganan bencana guna mengurangi dan memperkecil akibat bencana, serta ikut memelihara keamanan, ketentraman dan ketertiban masyarakat, kegiatan sosial kemasyarakatan. \r\n\r\n'),
-(6, 'Pembinaan Kesejahteraan Keluarga', 'Pembinaan_Kesejahteraan_Keluarga_1569381337.png', '10 Program Pokok PKK pada hakikatnya merupakan kebutuhan dasar manusia, yaitu:\r\n1. Penghayatan dan Pengamalan Pancasila\r\n2. Gotong Royong\r\n3. Pangan\r\n4. Sandang\r\n5. Perumahan dan Tatalaksana Rumah Tangga\r\n6. Pendidikan dan Keterampilan\r\n7. Kesehatan\r\n8. Pengembangan Kehidupan Berkoperasi\r\n9. Kelestarian Lingkungan Hidup\r\n10. Perencanaan Sehat');
+(4, 'Karang Taruna ', 'Karang_Taruna__1569381224.png', 'Karang Taruna adalah organisasi kepemudaan di Indonesia. Karang Taruna merupakan wadah pengembangan generasi muda nonpartisan, yang tumbuh atas dasar kesadaran dan rasa tanggung jawab sosial dari, oleh dan untuk masyarakat khususnya generasi muda di wilayah Desa / Kelurahan atau komunitas sosial sederajat, yang terutama bergerak dibidang kesejahteraan sosial. Sebagai organisasi sosial kepemudaan Karang Taruna merupakan wadah pembinaan dan pengembangan serta pemberdayaan dalam upaya mengembangkan kegiatan ekonomis produktif dengan pendayagunaan semua potensi yang tersedia dilingkungan baik sumber daya manusia maupun sumber daya alam yang telah ada. Sebagai organisasi kepemudaan, Karang Taruna berpedoman pada Pedoman Dasar dan Pedoman Rumah Tangga di mana telah pula diatur tentang struktur penggurus dan masa jabatan dimasing-masing wilayah mulai dari Desa / Kelurahan sampai pada tingkat Nasional. Semua ini wujud dari pada regenerasi organisasi demi kelanjutan organisasi serta pembinaan anggota Karang Taruna baik dimasa sekarang maupun masa yang akan datang.\n\nKarang Taruna beranggotakan pemuda dan pemudi (dalam AD/ART nya diatur keanggotaannya mulai dari pemuda/i berusia mulai dari 11 – 45 tahun) dan batasan sebagai Pengurus adalah berusia mulai 17 – 35 tahun.\n\nKarang Taruna didirikan dengan tujuan memberikan pembinaan dan pemberdayaan kepada para remaja, misalnya dalam bidang keorganisasian, ekonomi, olahraga, ketrampilan, advokasi, keagamaan dan kesenian.'),
+(5, 'Linmas', 'Linmas_1569381271.png', 'Istilah Linmas yang merupakan singkatan dari Perlindungan Masyarakat telah mengalami distorsi pengertian sehingga terjebak dalam anggapan umum yang hanya mengaitkan dengan sebuah fungsi dalam masyarakat yaitu fungsi linmas atau lebih dikenal dengan Pertahanan Sipil atau Hansip. Merunut kepada kenyataan tersebut maka perlu di gali kembali tentang istilah dan pengertian dari Perlindungan Masyarakat dan Satuan Perlindungan Masyarakat (Satlinmas) itu sendiri. \r\nPengertian Satuan Perlindungan Masyarakat dapat ditemukan pada Peraturan menteri Dalam Negeri Nomor 10 Tahun 2009 tentang Penugasan Satuan Perlindungan Masyarakat Dalam Penanganan Ketenteraman, Ketertiban, Dan Keamanan Penyelenggaraan Pemilihan Umum pada pasal 1 butir 1 yaitu : Satuan Perlindungan Masyarakat yang selanjutnya disebut Satuan Linmas adalah warga masyarakat yang disiapkan dan dibekali pengetahuan serta keterampilan untuk melaksanakan kegiatan penanganan bencana guna mengurangi dan memperkecil akibat bencana, serta ikut memelihara keamanan, ketentraman dan ketertiban masyarakat, kegiatan sosial kemasyarakatan. \r\n\r\n');
 
 -- --------------------------------------------------------
 
@@ -288,11 +252,16 @@ CREATE TABLE `perangkat` (
 --
 
 INSERT INTO `perangkat` (`id_perangkat`, `tahun_perangkat`, `nama_perangkat`, `jabatan_perangkat`) VALUES
-(1, '2019', 'Fadhikal', 'Kepala Desa'),
-(2, '2019', 'Abdul', 'Sekretaris Desa'),
-(3, '2019', 'Sanul', 'Kepala Dusun Sumberejo'),
-(4, '2019', 'Abdul Munib', 'Kasi Kesra'),
-(5, '2019', 'Vito', 'Kasi Pelayanan');
+(1, '2023', 'Yulianto', 'Wali Nagari'),
+(2, '2023', 'Anita Wati', 'Sekretaris Nagari'),
+(3, '2023', 'Elvira Linuriza', 'Kasi Pemerintahan'),
+(4, '2023', 'M. Nurul Huda', 'Kasi Kesejahteraan'),
+(5, '2023', 'Merry Adriyani', 'Kasi Pelayanan'),
+(7, '2023', 'Anggun', 'Kaur TU dan Umum'),
+(8, '2023', 'Hendri Yanti', 'Kaur Keuangan'),
+(9, '2023', 'Rahmad Sholeh', 'Kaur Perencanaan'),
+(10, '2023', 'Daitul Daif', 'Walijorong Mudik Sawah'),
+(11, '2023', 'Maggie Orthega', 'Walijorong Parik Panjang');
 
 -- --------------------------------------------------------
 
@@ -312,7 +281,19 @@ CREATE TABLE `profesi` (
 --
 
 INSERT INTO `profesi` (`id_profesi`, `nama_profesi`, `lk_profesi`, `pr_profesi`) VALUES
-(1, 'Petani', 70, 75);
+(1, 'Buruh Tani', 7, 0),
+(2, 'Petani', 260, 0),
+(3, 'Peternak', 34, 0),
+(4, 'Pedagang', 14, 0),
+(5, 'Tukang Kayu', 6, 0),
+(6, 'Tukang Batu', 6, 0),
+(7, 'Penjahit', 5, 0),
+(8, 'PNS', 17, 0),
+(9, 'Pensiunan', 17, 0),
+(10, 'TNI/Polri', 1, 0),
+(11, 'Perangkat Desa', 8, 0),
+(12, 'Industri Kecil', 2, 0),
+(13, 'Lain-lain', 18, 0);
 
 -- --------------------------------------------------------
 
@@ -352,8 +333,7 @@ CREATE TABLE `umkm` (
 --
 
 INSERT INTO `umkm` (`id_umkm`, `nama_umkm`, `foto_umkm`, `deskripsi_umkm`) VALUES
-(5, 'Santero', 'Santero_1569382260.png', 'Santero merupakan sebuah produk minuman yang diproduksi dari santrean desa sumberejo kota batu. Santero merupakan produk minuman sari buah yang terbuat dari bunga rosella. Usaha ini diproduksi oleh kelompok usaha bersama, yang terdiri dari 10 orang warga santrean desa sumberejo, salah satunya ialah ibu partimah. Awal mula bu partimah beserta para tetangganya yang berjumlah 10 orang itu, memiliki ide untuk memproduksi minuman sari buah santero ini, dikarenakan dulunya bunga rosella banyak dicari untuk dikeringkan, ternyata selain itu bisa juga dibuat menjadi minuman. Dari situlah sebuah ide untuk memproduksi bunga rosella menjadi minuman sari buah santero bermula. Mulanya bu partimah beserta para tetangganya yang berjumlah 10 0rang itu, memulai usaha ini pada tahun 2009 dengan modal awal tiga juta rupiah, yang dikumpulkan dari iuaran tiga ratus ribu per orang. Namun usaha tersebut sempat vakum pada bulan april di tahun 2009, dikarenakan alat-alat produksi rusak.\r\n\r\nTahun 2012, usaha ini mendapat bantuan alat-alat produksi dari pemberdayaan perempuan. Kemudian usaha ini berlanjut hingga sekarang. Hingga saat ini santero memiliki lima varian rasa yaitu, jambu, apel, jeruk, sirsak dan nanas. Santero bisa berkembang hingga sekarang, bermula dari memperkenalkan produk ini dari mulut ke mulut. Sampai saat ini santero sudah terkirim ke luar kota batu. Minuman sari buah santero dikemas ke dalam gelas-gelas kecil, dan dijual per dus. Dalam satu dus berisi 24 gelas kecil yang dihargai 22 ribu rupiah per dus. Produksi dilakukan by order, jadi ketika ada memesan baru akan diproduksi. Hingga saat ini tercatat kenaikan jumlah pesanan terjadi pada bulan puasa, yang berkisar hingga 1000 dus bahkan lebih. Hingga saat ini keuntungan yang dicapai dalam pertahunnya bisa mencapai hingga 50 juta rupuah.'),
-(6, 'Kripik Pisang Nawang Sari', 'Kripik_Pisang_Nawang_Sari_1569461300.png', 'Desa sumberejo merupakan salah satu desa yang berada di kota Batu. Sama halnya dengan desa lainnya. Desa ini mempunyai beberapa UMKM atau usaha mikro kecil menengah yang dirintis oleh beberapa warga yang ada di sana. Salah satu umkmnya ialah kripik pisang “Nawang Sari”. Usaha kripik pisang dimulai sejak tahun 2012 oleh pengusaha rumahan yang terletak pada dusun Santrean. Modal awal yang digunakan dalam usaha tersebut, dimulai dari setundun pisang yang kemudian dipasarkan dilingkungan sekitar dan dipromosikan dari mulut ke mulut.');
+(6, 'Budidaya Bawang', 'Budidaya_Bawang_1691345962.jpg', 'Bawang merah (Allium ascalonicum) merupakan tanaman hortikultura musiman yang memiliki nilai ekonomi tinggi. Namun pada saat-saat tertentu sering mengalami banjir produksi sehingga harganya anjlok. Diperparah lagi dengan kebijakan impor yang diterapkan pemerintah yang seringkali memperparah kejatuhan harga bawang merah di pasaran.\r\n\r\nUntuk menghindari fluktuasi harga yang sangat merugikan petani, perlu upaya untuk melakukan budidaya bawang merah diluar musim. Seiring dengan pembatasan kegiatan budidaya di musim-musim puncak.\r\n\r\nBudidaya bawang merah memerlukan penyinaran matahari lebih dari 12 jam sehari. Tanaman ini cocok dibudidayakan di dataran rendah dengan ketinggian 0 hingga 900 meter dari permukaan laut. Suhu optimum untuk perkembangan tanaman bawang merah berkisar 25-32 derajat celcius. Sedangkan keasaman tanah yang dikehendaki sekitar pH 5,6-7.');
 
 --
 -- Indexes for dumped tables
@@ -463,13 +443,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT untuk tabel `agama`
 --
 ALTER TABLE `agama`
-  MODIFY `id_agama` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_agama` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT untuk tabel `apbd`
 --
 ALTER TABLE `apbd`
-  MODIFY `id_apbd` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_apbd` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT untuk tabel `artikel`
@@ -499,7 +479,7 @@ ALTER TABLE `etnis`
 -- AUTO_INCREMENT untuk tabel `foto`
 --
 ALTER TABLE `foto`
-  MODIFY `id_foto` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_foto` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT untuk tabel `kontak`
@@ -523,13 +503,13 @@ ALTER TABLE `organisasi`
 -- AUTO_INCREMENT untuk tabel `perangkat`
 --
 ALTER TABLE `perangkat`
-  MODIFY `id_perangkat` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_perangkat` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `profesi`
 --
 ALTER TABLE `profesi`
-  MODIFY `id_profesi` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_profesi` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT untuk tabel `saran`
