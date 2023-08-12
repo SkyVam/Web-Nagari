@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Dashboard Admin - Desa Mojorejo</title>
+  <title>Dashboard Admin - Parik Panjang</title>
 
   <!-- Custom fonts for this template-->
   <link href="<?php echo base_url();?>assets/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -140,7 +140,7 @@
       <footer class="sticky-footer">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright © PKL Web 2019</span>
+            <span>Copyright ©KKN UNAND 2023</span>
           </div>
         </div>
       </footer>
