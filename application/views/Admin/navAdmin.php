@@ -19,6 +19,7 @@
 
   <!-- Custom styles for this template-->
   <link href="<?php echo base_url();?>assets/css/sb-admin.css" rel="stylesheet">
+  <link rel="shortcut icon" href="<?php echo base_url();?>assets/img/logos/logo.ico">
 
 </head>
 
